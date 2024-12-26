@@ -1,0 +1,39 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Conteneur */
+  .container {
+    text-align: center;
+  }
+  
+  /* Boîte colorée */
+  #color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc; /* Couleur par défaut */
+    margin: 20px auto;
+  }
+  
+  /* Bouton */
+  #change-color-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #45a049;
+  }
+  
